@@ -10,6 +10,6 @@
 
 
 (form
-  (<Project> name: sample description-file: {File :context ".repository"}
-    (<*>                  tag-reference: {File :context "jazz" ".project"})
-    (<*>                  tag-reference: {File :context "lib" "sample" ".project"}))))
+  (<Project> name: dawn-install description-file: {File :context ".repository"}
+    (<*>                        tag-reference: {File :context "jazz" ".project"})
+    (<*>                        tag-reference: {File :context "lib" "dawn-install" ".project"}))))

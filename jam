@@ -2,8 +2,8 @@
 
 REL="$(dirname "$0")"
 
-JAZ="$REL/jazz"
-JED="$REL/jedi"
+JIR="$REL/jiri"
+JAZ="$JIR/jazz"
 JAM="$JAZ/jam"
 
 UPDATE_SUBMODULES="true"
@@ -50,7 +50,9 @@ display_module_info () {
 }
 
 display_info () {
-    (display_module_info "Sample" "$REL")
+    (display_module_info "Dawn Install" "$REL")
+    echo
+    (display_module_info "Jiri" "$JIR")
     echo
     (display_module_info "Jazz" "$JAZ")
 }
