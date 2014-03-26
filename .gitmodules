@@ -1,0 +1,3 @@
+[submodule "jiri"]
+	path = jiri
+	url = https://github.com/gcartier/jiri.git
