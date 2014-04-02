@@ -7,4 +7,4 @@
 
 
 (jazz:default-safety 'release)
-(jazz:default-target 'dawn-install)
+(jazz:default-target 'dawn-jiri)

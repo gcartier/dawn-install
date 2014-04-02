@@ -1,0 +1,9 @@
+(package dawn-jiri
+  
+  (root "src")
+  (products (dawn-jiri (title "Dawn Jiri")
+                       (update dawn-jiri.settings)
+                       (dependencies dawn-install
+                                     dawn-uninstall
+                                     dawn-launch)))
+  (project ".project"))

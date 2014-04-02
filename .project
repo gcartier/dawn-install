@@ -11,5 +11,5 @@
 
 (form
   (<Project> name: dawn-install description-file: {File :context ".repository"}
-    (<*>                        tag-reference: {File :context "jazz" ".project"})
-    (<*>                        tag-reference: {File :context "lib" "dawn-install" ".project"}))))
+    (<*>                        tag-reference: {File :context "jiri" ".project"})
+    (<*>                        tag-reference: {File :context "lib" ".project"}))))

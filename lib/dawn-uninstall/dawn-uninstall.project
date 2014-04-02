@@ -1,0 +1,19 @@
+;;;==============
+;;;  JazzScheme
+;;;==============
+;;;
+;;;; Jazz-Project
+;;;
+
+
+(data jazz.debugger.jazz.data.project
+
+
+(form
+  (<Jazz-Project>  name: Dawn-Uninstall   default-traits: (Safety.Release) directory: {Directory :context "../../build"} working: {Directory :context "../.."} product: dawn-uninstall
+    (<Trait>       name: Safety
+      (<install>)
+      (<Trait>     name: Debug
+        (<install>               configuration: "debug"))
+      (<Trait>     name: Release
+        (<install>               configuration: "release"))))))

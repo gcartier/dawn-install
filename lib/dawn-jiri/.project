@@ -1,0 +1,20 @@
+;;;==============
+;;;  JazzScheme
+;;;==============
+;;;
+;;;; Project
+;;;
+
+
+(data jazz.ide.data.project
+
+
+(import (jazz.project)
+        (jazz.editor.jazz))
+
+
+(form
+  (<Project>               name: dawn-jiri description-file: {File :context ".package"}
+    (<Project-Directory>                      directory: {Directory :context "src"}
+      (<Project-Directory>                    directory: {Directory :context "src" "dawn-jiri"}
+        (<Project-File>                       source: {File :context "src" "dawn-jiri" "settings.scm"}))))))

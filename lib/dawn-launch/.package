@@ -1,0 +1,11 @@
+(package dawn-launch
+  
+  (root "src")
+  (products (dawn-launch (title "Dawn Launch")
+                         (run dawn-launch.run)
+                         ;; console?: #t to test on windows
+                         (build (dawn-launch executable: "Launch" minimum-heap: 500000 resources: "resources" console?: #t))
+                         (update dawn-launch.run
+                                 dawn-launch.settings)
+                         (dependencies jiri)))
+  (project ".project"))

@@ -1,0 +1,21 @@
+;;;==============
+;;;  JazzScheme
+;;;==============
+;;;
+;;;; Project
+;;;
+
+
+(data jazz.ide.data.project
+
+
+(import (jazz.project)
+        (jazz.editor.jazz))
+
+
+(form
+  (<Project>               name: dawn-uninstall description-file: {File :context ".package"}
+    (<*>                                        tag-reference: {File :context "dawn-uninstall.project"})
+    (<Project-Directory>                        directory: {Directory :context "src"}
+      (<Project-Directory>                      directory: {Directory :context "src" "dawn-uninstall"}
+        (<Project-File>                         source: {File :context "src" "dawn-uninstall" "run.scm"}))))))
