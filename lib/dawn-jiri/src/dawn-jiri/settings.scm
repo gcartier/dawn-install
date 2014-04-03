@@ -43,7 +43,7 @@
 
 
 (define jiri-install-remote
-  "d:/dawn/install/release/install")
+  "https://github.com/gcartier/dawn-install-windows.git")
 
 (define jiri-install-branch
   "master")
@@ -61,7 +61,7 @@
 
 
 (define jiri-app-remote
-  "d:/dawn/dawn-windows")
+  "https://github.com/gcartier/dawn-windows.git")
 
 (define jiri-app-branch
   "master")
@@ -76,7 +76,7 @@
 
 
 (define jiri-world-remote
-  "d:/dawn/dawn-world")
+  "https://github.com/gcartier/dawn-world.git")
 
 (define jiri-world-branch
   "master")

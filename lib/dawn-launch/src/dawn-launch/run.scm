@@ -16,7 +16,7 @@
 
 (define (run descriptor)
   (jazz:load-unit 'dawn-jiri.settings)
-  (jazz:load-unit 'jiri.load-launch))
+  (jazz:load-unit 'jiri.launch))
 
 
 (jazz:register-product-run 'dawn-launch

@@ -16,7 +16,7 @@
 
 (define (run descriptor)
   (jazz:load-unit 'dawn-jiri.settings)
-  (jazz:load-unit 'jiri.load-uninstall))
+  (jazz:load-unit 'jiri.uninstall))
 
 
 (jazz:register-product-run 'dawn-uninstall
