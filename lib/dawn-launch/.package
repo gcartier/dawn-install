@@ -4,7 +4,6 @@
   (products (dawn-launch (title "Dawn Launch")
                          (run dawn-launch.run)
                          (build (dawn-launch executable: "Launch" minimum-heap: 500000 resources: "resources"))
-                         (update dawn-launch.run
-                                 dawn-launch.settings)
+                         (update dawn-launch.run)
                          (dependencies jiri)))
   (project ".project"))

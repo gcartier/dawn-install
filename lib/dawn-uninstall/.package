@@ -4,7 +4,6 @@
   (products (dawn-uninstall (title "Dawn Uninstall")
                             (run dawn-uninstall.run)
                             (build (dawn-uninstall executable: "Uninstall" minimum-heap: 500000 resources: "resources"))
-                            (update dawn-uninstall.run
-                                    dawn-uninstall.settings)
+                            (update dawn-uninstall.run)
                             (dependencies jiri)))
   (project ".project"))

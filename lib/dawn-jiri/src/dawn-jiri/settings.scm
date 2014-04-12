@@ -27,6 +27,9 @@
 (define jiri-application
   "Dawn")
 
+(define jiri-development?
+  #t)
+
 
 ;;;
 ;;;; Remote
